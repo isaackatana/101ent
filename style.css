@@ -68,13 +68,16 @@ button {
 }
 
 .other-video {
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .other-video video {
     display: flex;
     width: 66%;
-    margin: 10px 0 10px 0;
+    margin-top: 10px;
     outline: none;
 }
 
@@ -88,7 +91,6 @@ button {
     color: rgb(0, 0, 0);
     margin: 5px;
     background-color: white;
-    border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 15px;
     margin: 0px;
@@ -130,6 +132,7 @@ footer p {
 
     .video-container {
         padding: 10px;
+        grid-template-columns: 1fr;
     }
 
     .video-container video {
@@ -138,7 +141,8 @@ footer p {
     }
 
     .top-video h3 {
-        font-size: 12.72px;
+        font-size: 9.36px;
+        padding: 8px 15px;
     }
 
     footer {
