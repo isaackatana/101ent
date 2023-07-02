@@ -53,6 +53,10 @@ button {
 
 /* video section */
 
+main h3 {
+    color: rgb(255, 255, 255);
+}
+
 .video-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -86,15 +90,7 @@ button {
     flex-direction: column;
 }
 
-.top-video h3 {
-    position: absolute;
-    color: rgb(0, 0, 0);
-    margin: 5px;
-    background-color: white;
-    border-bottom-right-radius: 15px;
-    padding: 15px;
-    margin: 0px;
-}
+
 
 
 
@@ -122,6 +118,16 @@ footer p {
         margin: 0 10px;
     }
 
+    main h3 {
+        color: rgb(255, 255, 255);
+        font-size: 12.72px;
+        padding: 0 10px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
     header img {
         width: 50px;
     }
@@ -136,17 +142,33 @@ footer p {
     }
 
     .video-container video {
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .top-video video {
         width: 100%;
         border-radius: 10px;
     }
 
-    .top-video h3 {
-        font-size: 9.36px;
-        padding: 8px 15px;
+    .other-video {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
     }
 
     footer {
         font-size: 8px;
+    }
+
+    footer h4 {
+        padding: 5px;
+    }
+
+    .social-media div{
+        display: flex;
+        gap: 5px;
     }
 
     footer p {
@@ -154,3 +176,200 @@ footer p {
     }
     
 }
+
+/* media query */
+
+@media (max-width: 375px) {
+    main {
+        margin: 0 10px;
+    }
+
+    main h3 {
+        color: rgb(255, 255, 255);
+        font-size: 12.72px;
+        padding: 0 10px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    header img {
+        width: 50px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .video-container {
+        padding: 10px;
+        grid-template-columns: 1fr;
+    }
+
+    .video-container video {
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .top-video video {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .other-video {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    footer {
+        font-size: 8px;
+    }
+
+    footer h4 {
+        padding: 5px;
+    }
+
+    .social-media div{
+        display: flex;
+        gap: 5px;
+    }
+
+    footer p {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    main {
+        margin: 0 10px;
+    }
+
+    main h3 {
+        color: rgb(255, 255, 255);
+        font-size: 12.72px;
+        padding: 0 10px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    header img {
+        width: 50px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .video-container {
+        padding: 10px;
+        grid-template-columns: 1fr;
+    }
+
+    .video-container video {
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .top-video video {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .other-video {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    footer {
+        font-size: 8px;
+    }
+
+    footer h4 {
+        padding: 5px;
+    }
+
+    .social-media div{
+        display: flex;
+        gap: 5px;
+    }
+
+    footer p {
+        padding: 5px;
+    }
+    
+}
+
+/* media query */
+
+@media (max-width: 425px) {
+    main {
+        margin: 0 10px;
+    }
+
+    main h3 {
+        color: rgb(255, 255, 255);
+        font-size: 12.72px;
+        padding: 0 10px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    header img {
+        width: 50px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .video-container {
+        padding: 10px;
+        grid-template-columns: 1fr;
+    }
+
+    .video-container video {
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .top-video video {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .other-video {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    footer {
+        font-size: 8px;
+    }
+
+    footer h4 {
+        padding: 5px;
+    }
+
+    .social-media div{
+        display: flex;
+        gap: 5px;
+    }
+
+    footer p {
+        padding: 5px;
+    }
+}
+
+
